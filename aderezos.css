@@ -1,0 +1,247 @@
+.card-beni{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.beni-chedar,
+.beni-parme, 
+.beni-ketchup,
+.beni-mayo,
+.beni-roque,
+.beni-salame,
+.beni-mayo-con-aceitunas,
+.beni-fugazzeta,
+.beni-aji-picante,
+.beni-chimichurri,
+.beni-barbacoa{
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+   
+}
+.chedar {
+    width: 50%;
+    height:auto;
+    max-height: 160px;
+    background-color: #e2a42d;
+    object-fit: cover;
+    display: block;
+    box-shadow: #fff 1px 1px 2.5px 2.5px;
+    border: solid #fff 0.5px;
+    border-radius: 10px;
+}
+
+
+.ketchup{
+    width: 50%;
+    height: auto;
+    max-height: 160px;
+    object-fit: cover;
+    display: block;
+    background-color: #f33838f5;
+    box-shadow: #fff 1px 1px 2.5px 2.5px;
+    border-radius: 10px;
+
+}
+.parmesano{
+    width: 50%;
+    height: auto;
+    max-height: 160px;
+    object-fit: cover;
+    display: block;
+    background-color: #f6eb4c;
+    box-shadow: #fff 1px 1px 2.5px 2.5px;
+    border-radius: 10px;
+}
+
+.clasica{
+    width: 50%;
+    height: auto;
+    max-height: 160px;
+    object-fit: cover;
+    display: block;
+    background-color: #f6eb4c;
+    box-shadow: #fff 1px 1px 2.5px 2.5px;
+    border-radius: 10px
+
+}
+
+.roquefort{
+    width: 50%;
+    height: auto;
+    max-height: 160px;
+    object-fit: cover;
+    display: block;
+    background-image:url(./asset/imagenes/fondos/color-roque-background.jpg) ;
+    box-shadow: #fff 1px 1px 2.5px 2.5px;
+    border-radius: 10px
+}
+.salame{
+    width: 50%;
+    height: auto;
+    max-height: 160px;
+    object-fit: cover;
+    display: block;
+    background-image:url(./asset/imagenes/fondos/salame-background.jpg) ;
+    box-shadow: #fff 1px 1px 2.5px 2.5px;
+    border-radius: 10px
+
+}
+.mayo-con-aceitunas{
+    width: 50%;
+    height: auto;
+    max-height: 160px;
+    object-fit: cover;
+    display: block;
+    background-image: url(./asset/imagenes/fondos/aceitunas-con-hojas-sin-fondo.png);
+    background-color: #808000;
+    box-shadow: #fff 1px 1px 2.5px 2.5px;
+    border-radius: 10px;
+}
+.fugazzeta{
+    width: 50%;
+    height: auto;
+    max-height: 160px;
+    object-fit: cover;
+    display: block;
+    background-image: url(./asset/imagenes/fondos/cebolla-morada-rodajas.avif)/*#f6eb4c*/;
+    box-shadow: #fff 1px 1px 2.5px 2.5px;
+    border-radius: 10px;
+}
+.aji{
+    width: 50%;
+    height: auto;
+    max-height: 160px;
+    object-fit: cover;
+    display: block;
+    background-image: url(./asset/imagenes/fondos/background-llamas.jpeg);
+    box-shadow: #fff 1px 1px 2.5px 2.5px;
+    border-radius: 10px;   
+}
+.chimi{
+    width: 50%;
+    height: auto;
+    max-height: 160px;
+    object-fit: cover;
+    display: block;
+    background-color: #f6eb4c;
+    box-shadow: #fff 1px 1px 2.5px 2.5px;
+    border-radius: 10px;
+}
+.barbacoa{
+    width: 50%;
+    height: auto;
+    max-height: 160px;
+    object-fit: cover;
+    display: block;
+    background-color: #890b0b;
+    box-shadow: #fff 1px 1px 2.5px 2.5px;
+    border-radius: 10px;
+
+}
+
+.descripcion-chedar,
+.descripcion-ketchup,
+.descripcion-parme,
+.descripcion-mayo,
+.descripcion-roque,
+.descripcion-salame,
+.descripcion-mayo-aceitunas,
+.descripcion-fugazzeta,
+.descripcion-aji,
+.descripcion-chimi,
+.descripcion-barbacoa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+.beni-chedar:hover, 
+.beni-ketchup:hover,
+.beni-parme:hover,
+.beni-mayo:hover,
+.beni-roque:hover,
+.beni-salame:hover,
+.beni-mayo-con-aceitunas:hover,
+.beni-fugazzeta:hover,
+.beni-aji-picante:hover,
+.beni-chimichurri:hover,
+.beni-barbacoa:hover{
+    transform: scale(1.05) rotate(15deg);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition:  transform 0.3s ease;
+}
+
+
+
+h2{
+    color: #fff;
+    margin: 10px 0 0 5px;
+    display: flex;
+    justify-content:center;
+    }
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 0;
+    list-style-type: circle;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    
+}
+
+.boton{
+    padding: 10px 20px;
+    background-color: #e72b2b;
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;    
+    box-shadow: #fff 0.5px 0.5px 1.5px 1.5px;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.boton:hover{
+    background-color: #fff000;
+}
+
+
+ul{
+    color: #fff;
+    display: flex;    
+    justify-content:center;
+}
+ul li{
+    display: flex;
+    flex-direction: column;
+}
+

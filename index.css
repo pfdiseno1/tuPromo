@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./asset/imagenes/fondos/74222556-comida-rápida-textura-de-fondo-azul.jpg);
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
+    overflow-x: hidden;
+    
+}
+
+header{
+    font-size: 28px;
+    width: 100%;
+    background-image: url(./asset/imagenes/logos/Fondo-tu-Promo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;      
+    padding: 10px 20px;
+    margin:0 auto;
+    max-width: 1200px;
+    box-shadow: 10px 10px 8px #c3b605d8;
+    border-radius: 10px;
+}
+.logo{
+    display: flex;
+   
+}
+
+.logo img{
+    height: 130px;
+    max-width: 100%;
+    margin: 10px;   
+}
+
+nav{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav ul a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #ff0000;
+    padding: 15px;
+    font-weight: 900;   
+   
+}
+nav ul a:hover{
+    /*background-color: rgb(0,0,0,0.4);*/
+    box-shadow: 10px 10px 12px 1px #ff0000;
+    border-radius: 5px;
+    
+}
+
+.menu-vertical{
+    display: none;
+    list-style-type: none;
+    padding-left: 20px;
+}
+.menu li:hover > .menu-vertical{
+    display: block;
+    position: absolute;
+    background-color: #ef2d2dea;
+    box-shadow:  10px 16px rgb(0,0,0,0.4);
+    border-radius: 10px;
+    z-index: 1;
+}
+.menu-vertical li a{
+    font-size: 20px;
+    color: #fff000;
+    text-decoration: none;
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: transparent;
+}
+
+

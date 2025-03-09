@@ -1,0 +1,104 @@
+
+.contacto-padre{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+.cabecera-contacto{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.cliente{
+    margin: 15px;
+    width: 30%;
+    box-shadow: 2px 2px 5px 5px #ff0000;
+    border-radius: 10px;
+    
+}
+label, input {
+    display: inline-block; /* Asegura que ambos se comporten como bloques alineados */
+    width: 200px; /* Define el mismo ancho para ambos */
+    padding: 10px; /* Espaciado interno */
+    /*border: 2.5px solid #fff000; /* Borde uniforme */
+    border-radius: 8px; /* Bordes redondeados */
+    font-size: 18px; /* Tamaño del texto */
+    box-sizing: border-box; /* Asegura que el padding y el borde no alteren el tamaño */
+}
+
+.boton-logo {
+    display: flex; /* Para que funcione como un botón */
+    text-align: center; /* Centra el contenido dentro del botón */
+    justify-content: center;
+}
+
+.logo-boton {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene las proporciones del logo */
+    padding: 10px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el puntero al pasar sobre el logo */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación al interactuar */
+}
+
+/* Efecto al pasar el mouse */
+.logo-boton:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Añade una sombra suave */
+}
+
+.tu-promo{
+    margin: 15px;
+    width: 70%;
+    height: auto;    
+    border: solid 1px white;
+    box-shadow: 2px 2px 5px 5px #fff000;
+    border-radius: 10px;
+}
+
+
+.contacto-padre2 {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+    gap: 20px; /* Espacio entre filas y columnas */
+    justify-items: center; /* Centra horizontalmente cada celda */
+    text-align: center; /* Centra el texto dentro de cada celda */
+    
+}
+
+.contacto-padre2 li {
+    list-style: none; /* Elimina puntos de lista */
+    margin: 0; /* Asegura que no haya márgenes adicionales */
+}
+
+.contacto-padre2 img {
+    width: 80px; /* Tamaño uniforme para todas las imágenes */
+    height: auto; /* Mantén la proporción de las imágenes */
+    display: block; /* Asegura que se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen dentro de la celda */
+}
+
+.contacto-padre2 p {
+    text-align: center;
+    margin: 10px 0 0; /* Espaciado superior para separar texto de la imagen */
+    font-size: 20px; /* Ajusta el tamaño del texto */
+}
+
+.contacto-padre2 li{
+    font-style: normal;
+}
+
+
+.firma{
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+}
+.firma2{
+    width: 30%;
+       
+}
