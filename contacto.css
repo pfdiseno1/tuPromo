@@ -3,7 +3,7 @@
     width: 100%;
     padding: 5px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
 
 }
 .cabecera-contacto{
@@ -13,22 +13,57 @@
     align-items: center;
     padding: 0;
 }
+
+.cliente-padre{
+   width: 100%;
+   margin: 20px;
+   display: flex;
+   justify-content: left;
+   align-items: start;
+   height: auto;
+  
+}
 .cliente{
-    margin: 15px;
-    width: 30%;
+    margin-left: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    /*justify-content: space-between; /* Centra horizontalmente cada celda */
+    text-align: center; /* Centra el texto dentro de cada celda */;
     box-shadow: 2px 2px 5px 5px #ff0000;
     border-radius: 10px;
     
 }
 label, input {
-    display: inline-block; /* Asegura que ambos se comporten como bloques alineados */
-    width: 200px; /* Define el mismo ancho para ambos */
-    padding: 10px; /* Espaciado interno */
-    /*border: 2.5px solid #fff000; /* Borde uniforme */
+    display: block; /* Asegura que ambos se comporten como bloques alineados */
+    width: 200%;
+    /*max-width: 300px; /* Define el mismo ancho para ambos */
+    padding: 5px; /* Espaciado interno */  
     border-radius: 8px; /* Bordes redondeados */
     font-size: 18px; /* Tamaño del texto */
     box-sizing: border-box; /* Asegura que el padding y el borde no alteren el tamaño */
+    
 }
+label{
+    margin-bottom: 5px;
+}
+input{
+    margin-bottom: 20px;
+}
+.mensaje{
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+
+.cliente form p{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .boton-logo {
     display: flex; /* Para que funcione como un botón */
@@ -37,7 +72,7 @@ label, input {
 }
 
 .logo-boton {
-    width: 100px; /* Ajusta el tamaño del logo */
+    width: 150px; /* Ajusta el tamaño del logo */
     height: auto; /* Mantiene las proporciones del logo */
     padding: 10px; /* Espaciado interno */
     cursor: pointer; /* Cambia el puntero al pasar sobre el logo */
@@ -51,54 +86,59 @@ label, input {
 }
 
 .tu-promo{
-    margin: 15px;
-    width: 70%;
+    margin: 10px;
+    max-width: 100%;
     height: auto;    
-    border: solid 1px white;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+    /*border: solid 1px white;
     box-shadow: 2px 2px 5px 5px #fff000;
     border-radius: 10px;
+    */
 }
 
 
 .contacto-padre2 {
     margin: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+    display: flex;
+    flex-direction: row;
+    /*display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales 
     gap: 20px; /* Espacio entre filas y columnas */
-    justify-items: center; /* Centra horizontalmente cada celda */
+    justify-content: space-between; /* Centra horizontalmente cada celda */
     text-align: center; /* Centra el texto dentro de cada celda */
     
 }
 
-.contacto-padre2 li {
+/*.contacto-padre2 li {
     list-style: none; /* Elimina puntos de lista */
-    margin: 0; /* Asegura que no haya márgenes adicionales */
-}
+    margin: 0; /* Asegura que no haya márgenes adicionales 
+}*/
 
 .contacto-padre2 img {
-    width: 80px; /* Tamaño uniforme para todas las imágenes */
+    width: 85px; /* Tamaño uniforme para todas las imágenes */
     height: auto; /* Mantén la proporción de las imágenes */
     display: block; /* Asegura que se comporte como un bloque */
     margin: 0 auto; /* Centra la imagen dentro de la celda */
+    
 }
 
 .contacto-padre2 p {
+    white-space: nowrap;
     text-align: center;
     margin: 10px 0 0; /* Espaciado superior para separar texto de la imagen */
-    font-size: 20px; /* Ajusta el tamaño del texto */
+    font-size: 25px; /* Ajusta el tamaño del texto */
 }
 
 .contacto-padre2 li{
     font-style: normal;
-}
-
-
-.firma{
-    width: 100%;   
+    width: auto;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
 }
-.firma2{
-    width: 30%;
-       
-}
+
+
+

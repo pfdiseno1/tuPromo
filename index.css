@@ -7,10 +7,20 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(./asset/imagenes/fondos/74222556-comida-rápida-textura-de-fondo-azul.jpg);
     /*background-repeat: no-repeat;
     background-size: cover;*/
-    overflow-x: hidden;
+    overflow-x: hidden;    
+}
+.background{  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;      
+    background-image: url(./asset/imagenes/fondos/74222556-comida-rápida-textura-de-fondo-azul.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
     
 }
 
@@ -29,6 +39,7 @@ header{
     max-width: 1200px;
     box-shadow: 10px 10px 8px #c3b605d8;
     border-radius: 10px;
+    
 }
 .logo{
     display: flex;
@@ -91,4 +102,35 @@ nav ul a:hover{
     background-color: transparent;
 }
 
+.contenedor-volver-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.volver-menu {
+    display: inline-block;
+    width: 60px; /* Ancho del botón */
+    height: 60px; /* Alto del botón (igual al ancho para que sea circular) */
+    line-height: 60px; /* Centra el texto verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color: #fff000; /* Color de fondo */
+    color: firebrick; /* Color del texto */
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50%; /* Hace que el botón sea circular */
+    border: none; /* Opcional: elimina bordes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
 
+.volver-menu:hover {
+    background-color: #ff0000; /* Cambia el color al pasar el mouse */
+    color: #fff000;
+}
+
+.volver-menu:hover {
+    background-color: #ff0000;
+    color: #fff000;
+}
+
+@import  url(./aderezos.css)

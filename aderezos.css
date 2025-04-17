@@ -1,3 +1,12 @@
+.aderezos-beni{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 .card-beni{
     width: 100%;
     height: auto;

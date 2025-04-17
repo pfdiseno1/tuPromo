@@ -61,7 +61,7 @@ p{
 .nombres{
     width: 100%;
     margin: 20px; /* Ajustamos el margen superior e inferior */
-    padding: 15px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;

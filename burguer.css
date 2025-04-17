@@ -1,0 +1,37 @@
+
+.card-burguer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+}
+
+.doscatorce-80grs,
+.paty-125grs{
+    flex-basis: 30%;
+    height: auto;
+    max-height: 160px;
+    object-fit: cover;
+    display: block;   
+    
+}
+
+
+.descripcion-80-grs,
+.descripcion-paty-cancha{
+    flex-basis: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+
+}
+

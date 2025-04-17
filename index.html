@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="aderezos.css">
     <link rel="stylesheet" href="somos.css">
     <link rel="stylesheet" href="contacto.css">
-    
+    <link rel="stylesheet" href="burguer.css">   
+     
 </head>
 
-
 <body>
-
+    <div class="background"></div>
     <header>
         <div class="logo derecha">
             <img src="./asset/imagenes/logos/logo-ORIGINAL-rojo-sin-fondo.png" alt="logo tu promo">
@@ -46,14 +46,20 @@
     </header>
     <main>
         
-        <section class="somos">
+        <section id="somos">
             <h1>Quienes Somos</h1>
 
             <div class="abrimos-padre">
                 <div class="abrimos-hijo">
                     <img class="flor-pablo" src="./asset/imagenes/apertura/Apertura-Flor-Pablo-2-recorte2.jpeg" alt="juntos">
-                    <h2 class="nombres">Flor Oliver y Pablo Ferreyra 
-                        <br> Administradores</h2>            
+
+                    <div class="nombres">
+                        <h2 class="nombres">Flor Oliver y Pablo Ferreyra 
+                            <br> Administradores</h2> 
+
+                    </div>
+                        
+                               
                 </div>
                 <div class="presentacion">
                     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi unde vero mollitia magnam inventore reiciendis itaque esse quidem nulla, ipsam, veritatis aperiam asperiores in accusamus quasi. Aliquam eos eveniet esse.</p>
@@ -71,211 +77,266 @@
             <h1>Nuestros Productos</h1>
     
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quo accusamus cum consequuntur eum itaque, mollitia officia est, repellendus recusandae iste nam quis esse. Numquam soluta excepturi voluptatum esse assumenda.</p>
+
+            <section id="aderezos">
+                <h1 class="aderezos-beni">Aderezos Benidorm</h1>
+
+                <div class="card-beni">
+                    <div class="beni-chedar">
+                        <img class="chedar" src="./asset/imagenes/benidorm/chedar-benidorm-sin-fondo.png" alt="salsa-chedar">
+                        <div class="descripcion-chedar" >
+                            <h2>Salsa Chedar</h2>
+                            <ul class="lista">
+                                <li>Precio: $ 2.500</li>
+                                <li>Contenido Neto: 480 cc</li>
+                            </ul>
+                        </div>
+                        <div class="footer"><button class="boton">COMPRAR</button></div>
+                    </div>
+        
+                    <div class="beni-ketchup">
+                        <img class="ketchup" src="./asset/imagenes/benidorm/ketchup-benidorm-sin-fondo.png" alt="ketchup">
+                        <div class="descripcion-ketchup">
+                            <h2>Ketchup</h2>
+                            <ul class="lista">
+                                <li>Precio: $ 2.500</li>
+                                <li>Contenido Neto: 500 cc</li>
+                            </ul>
+                        </div>
+                        <div class="footer"><button class="boton">COMPRAR</button></div>
+                    </div>
+                    <div class="beni-parme">
+                        <img class="parmesano" src="./asset/imagenes/benidorm/Parme-Beni-sin-fondo.png" alt="parmesano">
+                        <div class="descripcion-parme">
+                            <h2>Parmesano</h2>
+                            <ul class="lista">
+                                <li>Precio: $ 2.500</li>
+                                <li>Contenido Neto: 480 cc</li>
+                            </ul>
+                        </div>
+                        <div class="footer"><button class="boton">COMPRAR</button></div>
+                    </div>
+                    
+                    <div class="beni-mayo">
+                        <img class="clasica" src="./asset/imagenes/benidorm/Mayonesa-Benidorm-s-Fondo.png" alt="mayo-clasica">
+                        <div class="descripcion-mayo">
+                            <h2>Mayonesa Clasica</h2>
+                            <ul class="lista">
+                                <li>Precio: $2.800</li>
+                                <li>Contenido Neto: 460 cc</li>
+                            </ul>
+                        </div>
+                        <div class="footer"><button class="boton">COMPRAR</button></div>
+                    </div>
+                    <div class="beni-roque">
+                        <img class="roquefort" src="./asset/imagenes/benidorm/Roquefort-sin-fondo.png" alt="Roquefort">
+                        <div class="descripcion-roque">
+                            <h2>Roquefort</h2>
+                            <ul class="lista">
+                                <li>Precio: $ 3.000</li>
+                                <li>Contenido Neto: 480 cc</li>
+                            </ul>
+                        </div>
+                        <div class="footer"><button class="boton">COMPRAR</button></div>
+                    </div>
     
-            <div class="card-beni">
-                <div class="beni-chedar">
-                    <img class="chedar" src="./asset/imagenes/benidorm/chedar-benidorm-sin-fondo.png" alt="salsa-chedar">
-                    <div class="descripcion-chedar" >
-                        <h2>Salsa Chedar</h2>
-                        <ul class="lista">
-                            <li>Precio: $ 2.500</li>
-                            <li>Contenido Neto: 480 cc</li>
-                        </ul>
+                    <div class="beni-salame">
+                        <img class="salame" src="./asset/imagenes/benidorm/Salame-Benidorm-sin-fondo.png" alt="salame">
+                        <div class="descripcion-salame">
+                            <h2>Salame</h2>
+                            <ul class="lista">
+                                <li>Precio: $ 2.800</li>
+                                <li>Contenido Neto: 480 cc</li>
+                            </ul>
+                        </div>
+                        <div class="footer"><button class="boton">COMPRAR</button></div>
                     </div>
-                    <div class="footer"><button class="boton">COMPRAR</button></div>
-                </div>
     
-                <div class="beni-ketchup">
-                    <img class="ketchup" src="./asset/imagenes/benidorm/ketchup-benidorm-sin-fondo.png" alt="ketchup">
-                    <div class="descripcion-ketchup">
-                        <h2>Ketchup</h2>
+                    <div class="beni-mayo-con-aceitunas">
+                        <img class="mayo-con-aceitunas" src="./asset/imagenes/benidorm/Mayonesa-con Aceitunas-Benidorm.png" alt="mayonesa-con-aceitunas">
+                        <div class="descripcion-mayo-aceitunas">
+                            <h2>Mayonesa con Aceitunas</h2>
                         <ul class="lista">
-                            <li>Precio: $ 2.500</li>
-                            <li>Contenido Neto: 500 cc</li>
-                        </ul>
-                    </div>
-                    <div class="footer"><button class="boton">COMPRAR</button></div>
-                </div>
-                <div class="beni-parme">
-                    <img class="parmesano" src="./asset/imagenes/benidorm/Parme-Beni-sin-fondo.png" alt="parmesano">
-                    <div class="descripcion-parme">
-                        <h2>Parmesano</h2>
-                        <ul class="lista">
-                            <li>Precio: $ 2.500</li>
-                            <li>Contenido Neto: 480 cc</li>
-                        </ul>
-                    </div>
-                    <div class="footer"><button class="boton">COMPRAR</button></div>
-                </div>
-                
-                <div class="beni-mayo">
-                    <img class="clasica" src="./asset/imagenes/benidorm/Mayonesa-Benidorm-s-Fondo.png" alt="mayo-clasica">
-                    <div class="descripcion-mayo">
-                        <h2>Mayonesa Clasica</h2>
-                        <ul class="lista">
-                            <li>Precio: $2.800</li>
+                            <li>Precio: $ 3.000</li>
                             <li>Contenido Neto: 460 cc</li>
                         </ul>
-                    </div>
-                    <div class="footer"><button class="boton">COMPRAR</button></div>
-                </div>
-                <div class="beni-roque">
-                    <img class="roquefort" src="./asset/imagenes/benidorm/Roquefort-sin-fondo.png" alt="Roquefort">
-                    <div class="descripcion-roque">
-                        <h2>Roquefort</h2>
-                        <ul class="lista">
-                            <li>Precio: $ 3.000</li>
-                            <li>Contenido Neto: 480 cc</li>
-                        </ul>
-                    </div>
-                    <div class="footer"><button class="boton">COMPRAR</button></div>
-                </div>
-
-                <div class="beni-salame">
-                    <img class="salame" src="./asset/imagenes/benidorm/Salame-Benidorm-sin-fondo.png" alt="salame">
-                    <div class="descripcion-salame">
-                        <h2>Salame</h2>
-                        <ul class="lista">
-                            <li>Precio: $ 2.800</li>
-                            <li>Contenido Neto: 480 cc</li>
-                        </ul>
-                    </div>
-                    <div class="footer"><button class="boton">COMPRAR</button></div>
-                </div>
-
-                <div class="beni-mayo-con-aceitunas">
-                    <img class="mayo-con-aceitunas" src="./asset/imagenes/benidorm/Mayonesa-con Aceitunas-Benidorm.png" alt="mayonesa-con-aceitunas">
-                    <div class="descripcion-mayo-aceitunas">
-                        <h2>Mayonesa con Aceitunas</h2>
-                    <ul class="lista">
-                        <li>Precio: $ 3.000</li>
-                        <li>Contenido Neto: 460 cc</li>
-                    </ul>
-                    </div>
-                    
-                    <div class="footer"><button class="boton">COMPRAR</button></div>
-                </div>
-
-                <div class="beni-fugazzeta">
-                    <img class="fugazzeta" src="./asset/imagenes/benidorm/Fugazzeta-Benidorm-sin-fondo.png">
-                    <div class="descripcion-fugazzeta">
-                        <h2>Fugazzeta</h2>
-                        <ul class="lista">
-                            <li>Precio: $ 3.000</li>
-                            <li>Contenido Neto: 480 cc</li>
-                        </ul>
-                    </div>
-                    <div class="footer"><button class="boton">COMPRAR</button></div>
-                </div>
-
-                <div class="beni-aji-picante">
-                    <img class="aji" src="./asset/imagenes/benidorm/Ají-Picante-Benidorm-sin-fondo.png" alt="picante">
-                    <div class="descripcion-aji">
-                        <h2>Aji Picante</h2>
-                        <ul class="lista">
-                            <li>Precio:</li>
-                            <li>Contenido Neto 460 cc</li>
-                        </ul>
-                    </div>
-                    <div class="footer"><button class="boton">COMPRAR</button></div>
-                </div>
-                
-                <div class="beni-chimichurri">
-                    <img class="chimi" src="./asset/imagenes/benidorm/Chimichurri-Benidorm-ajustadoo (2) (1).png" alt="chimichurri">
-                    <div class="descripcion-chimi">
-                        <h2>Chimichurri</h2>
-                        <ul class="lista">
-                            <li>Precio</li>
-                            <li>Contenido Neto: $3.000</li>
-                        </ul>
-                    </div>
-                    <div class="footer"><button class="boton">COMPRAR</button></div>
-                </div>
-
-                <div class="beni-barbacoa">
-                    <img class="barbacoa" src="./asset/imagenes/benidorm/Barbacoa-sin-fondo-actual (1).png" alt="barbacoa">
-                    <div class="descripcion-barbacoa">
-                        <h2>Barbacoa</h2>
-                        <ul class="lista">
-                            <li>Precio: $ 2.500</li>
-                            <li>Contenido Neto: 450 cc</li>
-                        </ul>
-                    </div>
-                    <div class="footer"><button class="boton">COMPRAR</button></div>
-                </div>
-            </div>
-        
-        
-        </section>
-
-        <section class="contacto">
-            <h1 class="cabecera-contacto">CONTACTO</h1>
-
-            <div class="contacto-padre">
-                                
-                <div class="cliente">
-                    <form action="#">
-                        <p>
-                            <label for="nombre">Nombre:</label>
-                            <input type="text" name="nombre" placeholder="nombre" required>
-                            
-                        </p>
-                        <p>
-                            <label for="apellido">Apellido:</label>
-                            <input type="text" name="apellido" placeholder="apellido" required> 
-                        </p>
-                        <p>
-                            <label for="celular">Celular Nº:</label>
-                            <input type="tel" name="celular" placeholder="celular" required>
-                        </p>
-                        <p>
-                            <label for="asunto">Asunto de Contacto:</label>
-                            <input type="text" name="asunto" placeholder="tema de contacto">
-                        </p>
-
-                        <p>
-                            <label for="comentario">Te Leemos:</label>
-                            <textarea name="mensaje" rows="4" required></textarea>
-                        </p>
-                        <div class="boton-logo">
-                            <a  href="#">
-                                <img class="logo-boton" src="./asset/imagenes/logos/logo-ORIGINAL-rojo-sin-fondo.png" alt="tu promo">
-                            </a>
                         </div>
                         
-                    </form>
+                        <div class="footer"><button class="boton">COMPRAR</button></div>
+                    </div>
+    
+                    <div class="beni-fugazzeta">
+                        <img class="fugazzeta" src="./asset/imagenes/benidorm/Fugazzeta-Benidorm-sin-fondo.png">
+                        <div class="descripcion-fugazzeta">
+                            <h2>Fugazzeta</h2>
+                            <ul class="lista">
+                                <li>Precio: $ 3.000</li>
+                                <li>Contenido Neto: 480 cc</li>
+                            </ul>
+                        </div>
+                        <div class="footer"><button class="boton">COMPRAR</button></div>
+                    </div>
+    
+                    <div class="beni-aji-picante">
+                        <img class="aji" src="./asset/imagenes/benidorm/Ají-Picante-Benidorm-sin-fondo.png" alt="picante">
+                        <div class="descripcion-aji">
+                            <h2>Aji Picante</h2>
+                            <ul class="lista">
+                                <li>Precio:</li>
+                                <li>Contenido Neto 460 cc</li>
+                            </ul>
+                        </div>
+                        <div class="footer"><button class="boton">COMPRAR</button></div>
+                    </div>
                     
+                    <div class="beni-chimichurri">
+                        <img class="chimi" src="./asset/imagenes/benidorm/Chimichurri-Benidorm-ajustadoo (2) (1).png" alt="chimichurri">
+                        <div class="descripcion-chimi">
+                            <h2>Chimichurri</h2>
+                            <ul class="lista">
+                                <li>Precio</li>
+                                <li>Contenido Neto: $3.000</li>
+                            </ul>
+                        </div>
+                        <div class="footer"><button class="boton">COMPRAR</button></div>
+                    </div>
+    
+                    <div class="beni-barbacoa">
+                        <img class="barbacoa" src="./asset/imagenes/benidorm/Barbacoa-sin-fondo-actual (1).png" alt="barbacoa">
+                        <div class="descripcion-barbacoa">
+                            <h2>Barbacoa</h2>
+                            <ul class="lista">
+                                <li>Precio: $ 2.500</li>
+                                <li>Contenido Neto: 450 cc</li>
+                            </ul>
+                        </div>
+                        <div class="footer"><button class="boton">COMPRAR</button></div>
+                    </div>
                 </div>
 
-                <div class="tu-promo">
-                    <h2>Mas Información</h2>
+                
+                <div class="contenedor-volver-menu">
+                    <a href="#somos" class="volver-menu">Menu</a>
+                </div>
 
-                    <ul class="contacto-padre2">
+            </section>
+
+            <section id="burguer">
+                <h1>Hamburguesas</h1>
+
+                <div class="card-burguer">                  
+                    
+                    <div class="doscatorce-80grs">
+                        <img class="burguer80grs" src="./asset/imagenes/burguers/214x80-grs.png" alt="214-80grs">
+                        <h2>214 x 80grs</h2>
+                        <div class="descripcion-80-grs">
+                            <ul class="lista">
+                                <li>100% carne vacuna</li>
+                                <li>Producto SIN TACC</li>
+                                <li>Contenido: 80 grs</li> 
+                                <li>Precio: $ 1.000</li>
+                            </ul>
+                        </div>
+                        <div class="footer"><button class="boton">COMPRAR</button></div>
+                    </div>
+                    
+            
+                        <div class="paty-125grs">
+                            <img class="burguer125grs" src="./asset/imagenes/burguers/paty-cancha.png" alt="paty-cancha">
+                            <h2>Paty x 125grs</h2>
+                            <div class="descripcion-paty-cancha">
+                                <ul class="lista">
+                                    <li>Tipo "Cancha"</li>
+                                    <li>100% carne vacuna</li>
+                                    <li>Contenido: 125 grs</li> 
+                                    <li>Precio: $ 1.000</li>
+                                </ul>
+                            </div>
+                            <div class="footer"><button class="boton">COMPRAR</button></div>
+                        </div>
+                </div>
+
+                
+                <div class="contenedor-volver-menu">
+                    <a href="#somos" class="volver-menu">Menu</a>
+                </div>
+            </section>
+            
+
+        <section id="contacto">
+            <h1 class="cabecera-contacto">CONTACTANOS</h1>
+
+            <div class="contacto-padre">
+
+                <div class="cliente-padre">
+                    <div class="cliente">
+                        <form action="#">
+                            <p>
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" name="nombre" placeholder="nombre" required>
+                                
+                            </p>
+                            <p>
+                                <label for="apellido">Apellido:</label>
+                                <input type="text" name="apellido" placeholder="apellido" required> 
+                            </p>
+                            <p>
+                                <label for="celular">Celular Nº:</label>
+                                <input type="tel" name="celular" placeholder="celular" required>
+                            </p>
+                            <p>
+                                <label for="asunto">Asunto de Contacto:</label>
+                                <input type="text" name="asunto" placeholder="tema de contacto">
+                            </p>
+    
+                            <p>
+                                <label for="comentario">Te Leemos:</label>
+                                <textarea class="mensaje" name="mensaje" rows="4" cols="30"></textarea>
+                            </p>
+                            <div class="boton-logo">
+                                <a  href="#">
+                                    <img class="logo-boton" src="./asset/imagenes/logos/logo-ORIGINAL-rojo-sin-fondo.png" alt="tu promo">
+                                </a>
+                            </div>
+                        </form>
                         
-                        <li><img class="ubicacion" src="./asset/imagenes/iconos/ubicacion.png">
-                            <p >Tucuman 1461 Local 2</p></li>
-                        
-                        <li><img class="whatssapp" src="./asset/imagenes/iconos/whatssapp.png"><p>Celular: 298-4248439</p></li>
+                    </div>
+
+
+
+                </div>
+                                
+                
+
+                <div class="tu-promo">
+                    
+
+                    <ul class="contacto-padre2">                      
+                                                
+                        <li><img class="whatssapp" src="./asset/imagenes/iconos/whatssapp.png"><p> 298-4248439</p></li>
                         
                         <li><img class="ing" src="./asset/imagenes/iconos/instagram-3D (1).png"><p>tupromo.gr</p></li>
                         
-                        <li><img class="mail" src="./asset/imagenes/iconos/email.png"><p>E-mail: tupromogr@gmail.com</p></li>                        
+                        <li><img class="mail" src="./asset/imagenes/iconos/email.png"><p>tupromogeneralroca@gmail.com</p></li>                        
                     </ul>
 
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti eaque quibusdam expedita omnis iste praesentium illo quidem aliquam! Iusto necessitatibus veniam laborum maxime harum. Dicta quas sed distinctio incidunt laudantium!</p>
                     
-                    <div class="firma">
-                        <img class="firma2" src="./asset/imagenes/logos/logo-sin-fondo.png">
-
-                    </div>
                     
 
                 </div>
+                
+                           
             </div>
+
+             <div class="contenedor-volver-menu">
+                <a href="#somos" class="volver-menu">Menu</a>
+            </div>
+        </section>
         
      
     </main>
     <script src="./script.js">
+    @import url(burguer.html)
         
     </script>
     
